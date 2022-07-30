@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFC2C7">
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_back" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/img" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take care of the pet !!!"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pets are very cute pets"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose a suitable pet for yourself"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Started"
+            android:id="@+id/btnStart"
+            android:background="@drawable/custom_btn"
+            android:padding="15dp"
+            android:textSize="23dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose PET"
+            android:id="@+id/btnChoose"
+            android:background="@drawable/custom_btn"
+            android:padding="15dp"
+            android:textSize="23dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:id="@+id/btnNext"
+            android:background="@drawable/custom_btn"
+            android:padding="15dp"
+            android:textSize="23dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</layout>
