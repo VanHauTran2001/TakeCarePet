@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:icon="@drawable/logo_pet"
         android:label="Take Care Pet"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo_pet"
         android:supportsRtl="true"
         android:theme="@style/Theme.TakeCarePet">
         <activity
